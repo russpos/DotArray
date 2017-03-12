@@ -2,6 +2,16 @@
 
 namespace DotArray;
 
+/**
+ * Extract 
+ * 
+ * Simple class to extract values from a key using dot-notation.
+ *
+ * ```
+ * $value = DotArray\Extract::keyFromArray('a.b.c', ['a' => ['b'=>['c' => 'hello world']]]);
+ * echo $value; // 'hello world';
+ *  ```
+ */
 class Extract {
 
     public static function keyFromArray(string $key, array $data_array) {
