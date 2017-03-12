@@ -1,0 +1,12 @@
+{
+    "name": "russpos/dotarrays",
+    "description": "Utility for traversing arrays using a dot notation",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Russ P",
+            "email": "russ@russposluszny.com"
+        }
+    ],
+    "require": {}
+}
