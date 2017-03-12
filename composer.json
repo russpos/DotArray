@@ -1,5 +1,5 @@
 {
-    "name": "russpos/dotarrays",
+    "name": "russpos/dotarray",
     "description": "Utility for traversing arrays using a dot notation",
     "type": "library",
     "authors": [
@@ -8,6 +8,12 @@
             "email": "russ@russposluszny.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"DotArray\\": "phplib/"}
+    },
+    "scripts": {
+        "test": "phpunit --bootstrap ./vendor/autoload.php ./tests"
+    },
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "^6.0"
